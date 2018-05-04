@@ -2,6 +2,7 @@
     "jiaju":[{
         "favicon_id":13,
         "img":"img/jiaju1.png",
+        "imgs":["img/jiaju1.png","img/home2.png","img/home3.png","img/home4.png"],
         "main":"小钢琴储物升降茶几",
         "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
         "cont":"丝滑蓝精天丝，清凉亲肤保湿",
@@ -12,6 +13,7 @@
     },{
         "favicon_id":14,
         "img":"img/jiaju2.png",
+        "imgs":["img/jiaju2.png","img/home2.png","img/home3.png","img/home4.png"],
         "main":"透气呼吸沙四件套22",
         "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
         "cont":"丝滑蓝精天丝，清凉亲肤保湿",
@@ -22,6 +24,7 @@
     },{
         "favicon_id":15,
         "img":"img/jiaju3.png",
+        "imgs":["img/jiaju3.png","img/home2.png","img/home3.png","img/home4.png"],
         "main":"透气呼吸沙四件套22",
         "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
         "cont":"丝滑蓝精天丝，清凉亲肤保湿",
@@ -32,6 +35,7 @@
     },{
         "favicon_id":16,
         "img":"img/jiaju4.png",
+        "imgs":["img/jiaju4.png","img/home2.png","img/home3.png","img/home4.png"],
         "main":"透气呼吸沙四件套22",
         "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
         "cont":"丝滑蓝精天丝，清凉亲肤保湿",
@@ -42,6 +46,7 @@
     },{
         "favicon_id":17,
         "img":"img/jiaju1.png",
+        "imgs":["img/jiaju1.png","img/home2.png","img/home3.png","img/home4.png"],
         "main":"透气呼吸沙四件套22",
         "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
         "cont":"丝滑蓝精天丝，清凉亲肤保湿",
@@ -52,6 +57,7 @@
     },{
         "favicon_id":18,
         "img":"img/jiaju2.png",
+        "imgs":["img/jiaju2.png","img/home2.png","img/home3.png","img/home4.png"],
         "main":"透气呼吸沙四件套22",
         "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
         "cont":"丝滑蓝精天丝，清凉亲肤保湿",

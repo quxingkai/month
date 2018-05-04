@@ -53,9 +53,18 @@
     })
 </script>
 <script type="text/x-handlebars-template" id="product-tpl">
- 
          <dl data-id={{favicon_id}}>
-            <dt><img src="../{{img}}" alt=""></dt>
+            <dt>
+                <div class="swiper-container banner">
+                    <div class="swiper-wrapper">
+                        {{#each imgs}}
+                           <div class="swiper-slide">
+                               <img src="../{{this}}" alt="">
+                           </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </dt>
             <dd>
                 <p>
                     {{#each title}}
@@ -104,7 +113,11 @@
                 <div class="three">面料: {{mianliao}}</div>
             </div>
         </dd>
-        <dt><img src="../img/home1.png" alt=""></dt>
+        <div class="imglist">
+            {{#each imgs}}
+                 <img src="../{{this}}" alt="">
+            {{/each}}
+        </div>
 
     </dl>
 </script>

@@ -204,3 +204,13 @@ html, body, .wrap {
   padding-left: 10px;
   font-size: 0.3rem;
 }
+
+.imglist {
+  width: 100%;
+}
+
+.imglist img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}

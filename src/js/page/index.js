@@ -1,12 +1,13 @@
 require(['jquery','BScroll','render'],function($,BScroll,render){
-    new BScroll('.nav',{
+    var navscroll = new BScroll('.nav',{
         scrollX:true,
         scrollY:false,
-        click:true
+        click:true,
+        probeType:2
     });
 
     var type = 'home';
-
+    
     $('.nav').on('click','li',function(){
         type = $(this).data('type');
         $(this).addClass('bg').siblings().removeClass('bg');
@@ -25,7 +26,7 @@ require(['jquery','BScroll','render'],function($,BScroll,render){
             url:'/api/index?type='+type,
             dataType:'json',
             success:function(res){
-              console.log(res[type]);
+              //console.log(res[type]);
               getData(res[type]);
               scroll.refresh();
             }
@@ -33,7 +34,7 @@ require(['jquery','BScroll','render'],function($,BScroll,render){
     }
 
     function getData(data){
-        console.log(data);
+        //console.log(data);
         render('#list-tpl',data,'.list')
     }
 
