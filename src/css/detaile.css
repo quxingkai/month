@@ -180,3 +180,11 @@ html, body, .wrap {
   color: #C65C60;
   font-size: 0.32rem;
 }
+
+.style {
+  width: 100%;
+}
+
+.style div {
+  font-size: 0.3rem;
+}

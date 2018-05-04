@@ -1,18 +1,8 @@
 {
-    "home":[{
-        "favicon_id":1,
-        "img":"img/home1.png",
-        "main":"Paisley欧式天丝四件套",
-        "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
-        "cont":"丝滑蓝精天丝，清凉亲肤保湿",
-        "price":"￥599",
-        "time":"夏季，春季",
-        "style":"床单式",
-        "mianliao":"天丝"
-    },{
-        "favicon_id":2,
-        "img":"img/home2.png",
-        "main":"透气呼吸沙四件套",
+    "jiaju":[{
+        "favicon_id":13,
+        "img":"img/jiaju1.png",
+        "main":"小钢琴储物升降茶几",
         "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
         "cont":"丝滑蓝精天丝，清凉亲肤保湿",
         "price":"￥459",
@@ -20,39 +10,48 @@
         "style":"床单式",
         "mianliao":"天丝"
     },{
-        "favicon_id":3,
-        "img":"img/home3.png",
-        "main":"唤自然·迷雾雨林四件套",
+        "favicon_id":14,
+        "img":"img/jiaju2.png",
+        "main":"透气呼吸沙四件套22",
         "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
         "cont":"丝滑蓝精天丝，清凉亲肤保湿",
-        "price":"￥399",
+        "price":"￥459",
         "time":"夏季，春季",
         "style":"床单式",
         "mianliao":"天丝"
     },{
-        "favicon_id":4,
-        "img":"img/home4.png",
-        "main":"唤自然·种下椰香四件套",
+        "favicon_id":15,
+        "img":"img/jiaju3.png",
+        "main":"透气呼吸沙四件套22",
         "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
         "cont":"丝滑蓝精天丝，清凉亲肤保湿",
-        "price":"￥299",
-        "time":"夏季，春季",
-        "style":"床单式",
-        "mianliao":"天丝"
-        
-    },{
-        "favicon_id":5,
-        "img":"img/home1.png",
-        "main":"Paisley欧式天丝四件套11",
-        "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
-        "cont":"丝滑蓝精天丝，清凉亲肤保湿",
-        "price":"￥599",
+        "price":"￥459",
         "time":"夏季，春季",
         "style":"床单式",
         "mianliao":"天丝"
     },{
-        "favicon_id":6,
-        "img":"img/home2.png",
+        "favicon_id":16,
+        "img":"img/jiaju4.png",
+        "main":"透气呼吸沙四件套22",
+        "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
+        "cont":"丝滑蓝精天丝，清凉亲肤保湿",
+        "price":"￥459",
+        "time":"夏季，春季",
+        "style":"床单式",
+        "mianliao":"天丝"
+    },{
+        "favicon_id":17,
+        "img":"img/jiaju1.png",
+        "main":"透气呼吸沙四件套22",
+        "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
+        "cont":"丝滑蓝精天丝，清凉亲肤保湿",
+        "price":"￥459",
+        "time":"夏季，春季",
+        "style":"床单式",
+        "mianliao":"天丝"
+    },{
+        "favicon_id":18,
+        "img":"img/jiaju2.png",
         "main":"透气呼吸沙四件套22",
         "title":["兰精天丝细腻棉柔","配兹利纹经典大气","独立收纳精美实用"],
         "cont":"丝滑蓝精天丝，清凉亲肤保湿",
