@@ -66,6 +66,9 @@ html,body,.wrap{
     flex:1;
     overflow: hidden;
 }
+.scroll{
+    width:100%;
+}
 
 .footer{
     width:100%;
@@ -162,6 +165,16 @@ html,body,.wrap{
 .style{
     width:100%;
     div{
+        font-size: 0.3rem;
+    }
+}
+.stylelist{
+    width:100%;
+    div{
+        border-bottom: 1px solid #ccc;
+        height: 1rem;
+        line-height: 1rem;
+        padding-left:10px;
         font-size: 0.3rem;
     }
 }

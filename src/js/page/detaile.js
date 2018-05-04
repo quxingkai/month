@@ -1,4 +1,4 @@
-require(['jquery','render'],function($,render){
+require(['jquery','render','BScroll'],function($,render,BScroll){
     var query = window.location.search.split('?')[1];
     var arr = query.split('&');
     var obj = {};
@@ -16,11 +16,13 @@ require(['jquery','render'],function($,render){
     $('.product').on('click',function(){
         $(this).addClass('cur').siblings().removeClass('cur');
         type = $(this).data('type');
+        $('.style').show();
         getAjax()
     });
     $('.btnDetaile').on('click',function(){
         $(this).addClass('cur').siblings().removeClass('cur');
         type = $(this).data('type');
+        $('.style').hide();
         getAjax()
     })
     getAjax();
@@ -35,6 +37,11 @@ require(['jquery','render'],function($,render){
                 }else if(type=='detaile'){
                     getDetaile(res)
                 }
+                var scroll = new BScroll('.section',{
+                    scrollX:false,
+                    scrollY:true,
+                    click:true
+                })
                 
             }
         });
