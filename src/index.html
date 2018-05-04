@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 375*50 +'px';
+    </script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <a href="#"><i class="icon iconfont icon-zuojiantou-01"></i></a>
+            <a href="#">居家</a>
+            <a href="#"><i class="icon iconfont icon-fangdajing"></i></a>
+        </header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li data-type="home" class="bg">床品件套</li>
+                <li data-type="table">被枕</li>
+                <li>家具</li>
+                <li>收纳</li>
+                <li>布艺软装</li>
+                <li>家饰</li>
+            </ul>
+        </nav>
+        <section class="section">
+            <div class="scroll">
+                <div class="list" data-type="">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+<script src="js/require.js"></script>
+<script>
+    require(['./js/main.js'],function(){
+        require(['index']);
+    })
+</script>
+<script type="text/x-handlebars-template" id="list-tpl">
+   {{#each this}}
+    <dl data-id="{{favicon_id}}">
+        <dt><img src="{{img}}" alt=""></dt>
+        <dd>
+            <h5>{{main}}</h5>
+            <p>{{price}}</p>
+        </dd>
+    </dl>
+    {{/each}}
+</script>

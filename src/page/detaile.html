@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 375*50 +'px';
+    </script>
+    <link rel="stylesheet" href="../css/detaile.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/swiper-3.4.2.min.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <a href="#"><i class="icon iconfont icon-xiangzuo zuo"></i></a>
+            <span>
+                <a href="#" class="cur product" data-type="product">商品</a>
+                <a href="#" class="btnDetaile" data-type="detaile">详情</a>
+            </span>
+            <span>
+                <a href="../index.html"><i class="icon iconfont icon-iconhuidaoshouye"></i></a>
+                <a href="#"><i class="icon iconfont icon-fenxiang3"></i></a>
+            </span>
+        </header>
+        <section class="section">
+           <div class="detaile">
+           </div>
+        </section>
+        <footer class="footer">
+            <span>
+                <i class="icon iconfont icon-kefu"></i>
+                <i class="icon iconfont icon-gouwuche"></i>
+                <i class="icon iconfont icon-pingfen"></i>
+            </span>
+            <span>
+                <button class="bg">上架提醒</button>
+                <button>即将上架</button>
+            </span>
+        </footer>
+    </div>
+</body>
+</html>
+<script src="../js/require.js"></script>
+<script>
+
+    require(['../js/main.js'],function(){
+        require(['detaile'])
+    })
+</script>
+<script type="text/x-handlebars-template" id="product-tpl">
+ 
+         <dl data-id={{favicon_id}}>
+            <dt><img src="../{{img}}" alt=""></dt>
+            <dd>
+                <p>
+                    {{#each title}}
+                    <span><img src="../{{../ img}}" alt="">
+                          <a href="#">{{this}}</a>
+                    </span>
+                    {{/each}}
+                </p>
+                <h5>{{main}}</h5>
+                <div class="cont">
+                      {{cont}}
+                </div>
+                <div class="price">
+                       {{price}}
+                </div>
+            </dd>
+        </dl>
+</script>
+<script type="text/x-handlebars-template" id="detaile-tpl">
+    <dl>
+        <dd>
+            <h5>{{main}}</h5>
+            <div class="cont">
+                    {{cont}}
+            </div>
+            <div class="price">
+                    {{price}}
+            </div>
+            <p>
+                {{#each title}}
+                <span><img src="../{{../ img}}" alt="">
+                        <a href="#">{{this}}</a>
+                </span>
+                {{/each}}
+            </p>
+        </dd>
+        <dt><img src="../img/home1.png" alt=""></dt>
+
+    </dl>
+</script>

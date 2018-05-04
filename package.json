@@ -1,0 +1,22 @@
+{
+  "name": "month",
+  "version": "1.0.0",
+  "description": "H5整合月考",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quxingkai/month.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quxingkai/month/issues"
+  },
+  "homepage": "https://github.com/quxingkai/month#readme",
+  "devDependencies": {
+    "gulp-webserver": "^0.9.1"
+  }
+}
